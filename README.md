@@ -1,5 +1,3 @@
-# Fairness-in-College-Admissions-Using-AI
-
 # Fairness in College Admissions AI
 
 ## Overview
@@ -36,7 +34,7 @@ College admissions processes often exhibit biases that disadvantage underreprese
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/fairness-college-admissions.git
+git clone https://github.com/bhushanasati25/Fairness-in-College-Admissions-Using-AI.git
 cd fairness-college-admissions
 
 # Create a virtual environment (optional but recommended)
@@ -72,8 +70,6 @@ Place the `Most-Recent-Cohorts-Institution.csv` file in the project directory to
 ## Usage
 
 ```python
-# Run the entire pipeline
-python fairness_college_admissions.py
 
 # To use specific components:
 from fairness_college_admissions import load_and_preprocess_data, train_and_evaluate_models
@@ -107,28 +103,6 @@ The project compares different models and bias mitigation techniques, typically 
 
 Interactive dashboards (saved as HTML files) provide a comprehensive view of model performance and fairness metrics.
 
-## Examples
-
-![Model Performance Comparison](model_performance_comparison.png)
-![Fairness Metrics Comparison](fairness_metrics_comparison.png)
-![Accuracy vs. Fairness Trade-off](accuracy_fairness_tradeoff.png)
-
-## Project Structure
-
-```
-├── fairness_college_admissions.py  # Main code file
-├── requirements.txt                # Dependencies
-├── Most-Recent-Cohorts-Institution.csv  # Dataset
-├── README.md                       # Project documentation
-└── visualizations/                 # Generated charts and dashboards
-    ├── model_performance_comparison.png
-    ├── fairness_metrics_comparison.png
-    ├── feature_importance_rf.png
-    ├── threshold_optimization.png
-    ├── final_admission_dashboard.html
-    └── ...
-```
-
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
@@ -146,24 +120,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Acknowledgments
 
 - U.S. Department of Education for the College Scorecard dataset
-- The fairness in machine learning research community for algorithms and metrics
+- The fairness in the machine learning research community for algorithms and metrics
 - Open-source ML libraries including scikit-learn, XGBoost, and Plotly
-
-## Citation
-
-If you use this code in your research, please cite:
-
-```
-@software{fairness_college_admissions,
-  author = {Your Name},
-  title = {Fairness in College Admissions AI},
-  year = {2025},
-  url = {https://github.com/yourusername/fairness-college-admissions},
-}
-```
-
-## Contact
-
-Your Name - [@yourusername](https://twitter.com/yourusername) - email@example.com
-
-Project Link: [https://github.com/yourusername/fairness-college-admissions](https://github.com/yourusername/fairness-college-admissions)
